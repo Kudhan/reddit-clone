@@ -1,9 +1,10 @@
 import Image from "next/image";
-
+import Header from "@/components/Header";
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <h1 className="text-cyan-300 text-7xl">Kudhan</h1>
+    <div>
+      <Header />
+      <h1 className="text-cyan-300 text-2xl">Kudhan</h1>
     </div>
   );
 }
